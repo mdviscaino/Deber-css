@@ -1,0 +1,75 @@
+body{
+    background-color: #232323;
+}
+.logos {
+  display: flex;
+  justify-content: space-between; /* Esto separa los logos a izquierda y derecha */
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0 2rem; /* Agrega espacio a los lados si lo deseas */
+}
+header {
+  background: #004080;
+  color: white;
+  padding: 1rem;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 1rem;
+}
+
+.header-flex img {
+  height: 80px;
+}
+
+.header-title {
+  flex: 1;
+}
+
+.header-title h1 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.header-title h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.sidebar {
+  width: 180px;
+  background-color: #004080;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar button {
+  background-color: white;
+  color: #004080;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+  background-color: #cce0ff;
+}
